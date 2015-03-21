@@ -1,0 +1,427 @@
+html, body { height: 100%; }
+
+.pt-perspective {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	-webkit-perspective: 1200px;
+	-moz-perspective: 1200px;
+	perspective: 1200px;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.pt-page {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	visibility: hidden;
+	overflow: hidden;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+.pt-page-current,
+.no-js .pt-page {
+	visibility: visible;
+}
+
+.no-js body {
+	overflow: auto;
+}
+
+.pt-page-ontop {
+	z-index: 999;
+}
+
+/* Text Styles, Colors, Backgrounds */
+
+
+
+.pt-container{
+	width:68%;
+	position: relative;
+	top:26%;
+	left: 20px;
+	height: 400px;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+}
+
+.pt-page-1{
+background-image: url(../img/light.png) !important;
+background-repeat: no-repeat !important;
+-webkit-background-size: 90% !important;
+background-size: 90% !important;
+}
+#start h1 {
+font-size: 56px;
+text-shadow:0px 4px 0 rgba(0, 0, 0,.1);
+text-align: center;
+}
+#start h2{
+font-size: 36px;
+text-shadow:0px 4px 0 rgba(0, 0, 0,.1);
+text-align: center;
+margin-top: 10px;
+}
+
+#start{
+
+width: 75%;
+left: 0;
+}
+#jianjie h1{
+font-size: 43px;
+
+}
+#jianjie{
+background-image: url(../img/1.png);
+
+}
+#jianjie .text{
+width: 65%;
+}
+#cehua{
+background-image: url(../img/2.png);
+
+}
+
+#renli{
+
+background-image: url(../img/3.png);
+
+}
+
+#jishu{
+background-image: url(../img/4.png);
+
+}
+#sheji{
+background-image: url(../img/5.png);
+
+}
+#safari{
+background-image: url(../img/6.png);
+}
+#huodong{
+background-image: url(../img/7.png);
+
+}
+#huodong ul{
+font-size: 30px;
+line-height: 50px;
+}
+#shouhuo{
+height: 600px;
+background-image: url(../img/8.png);
+width: 75%;
+
+}
+
+
+#start .logo{
+margin-left: auto;
+margin-right: auto;
+width:120px;
+height: 120px;
+-webkit-background-size: 100%;
+background-size: 100%;
+background-image: url(../img/1.png);
+opacity: 0.9;
+position: relative;
+top: 50px;
+}
+#shouhuo .text{
+width: 60%;
+position: relative;
+top:-60px;
+right:60px;
+}
+#shouhuo ul{
+font-size: 24px;
+
+}
+.pt-page-1 {
+	background: #1C374A;
+	background: #386F94;
+	background: #8EC7FC;
+	}
+
+	
+.pt-page-2 {
+	background: #D2DD73;
+}
+
+.pt-page-3 {
+	background: #E3C7A0;
+}
+
+.pt-page-4 {
+	
+	background:#FDC97B;
+}
+
+.pt-page-5 {
+	
+	background: #B6D5D6;
+}
+
+.pt-page-6 {
+	
+	background: #FD827B;
+}
+
+.pt-page-70 {
+    background: #FF6600;
+}
+
+.pt-page-8 {
+	background: #fdc162;
+}
+
+.pt-page-9 {
+	background: #90D5C1;
+}
+
+.pt-page-10 {
+	background: #386F94;
+}
+
+
+.text{
+	float: right;
+	width: 58%;
+}
+
+.text h1 {
+	font-weight:bold;
+	font-size: 50px;
+	line-height: 1;
+	letter-spacing: 6px;
+	margin: 0;
+	padding-bottom:20px;
+	text-transform: uppercase;
+	word-spacing: -0.3em;
+	text-shadow:0px 3px 0 rgba(0, 0, 0,.1);
+}
+.text p{
+font-size: 22px;
+line-height: 35px;
+
+}
+.text p,.text li{
+text-shadow:2px 2px 0 rgba(0, 0, 0,.15);
+}
+
+.page-info{
+position: absolute;
+bottom: 25px;
+right: 40px;
+color: rgba(0,0,0,0.2);
+font-weight: bold;
+padding: 5px 10px;
+-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	border: rgba(0,0,0,0.2) 2px solid ;
+}
+
+	/*============================= form =============================*/
+/*.form{
+	margin: 0 auto;
+	width: 50%;
+	padding: 80px 0 0 0;
+}
+
+
+.form input[type="text"],.form textarea {
+padding: 5px;
+border: 2px solid #FFFFFF;
+border-radius: 4px;
+width: 200px;
+line-height: 20px;
+font-size: 14px;
+background-color: #386F94;
+color: #fff;
+font-family: 微软雅黑, 黑体 ,'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.form input[type="checkbox"] {
+border: 2px solid #FFFFFF;
+border-radius: 4px;
+
+}*/
+
+.form1{
+display: block;
+border: 0;
+overflow-y: hidden;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+height:100%;
+
+
+}
+
+
+
+
+
+
+
+.turnpage li{
+	width: 50px;
+
+}
+.turnpage li a {
+display: block;
+	width: 40px;
+	height: 40px;
+	background-color: rgba(255,255,255,0.7)
+}
+
+/* Triggers (menu and button) */
+
+/*.pt-triggers {
+	position: absolute;
+	width: 90%;
+	z-index: 999999;
+	top: 12%;
+	left: 50%;
+	margin-top: 130px;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%); 
+	transform: translateX(-50%);
+}*/
+
+.no-js .pt-triggers {
+	display: none;
+}
+
+.pt-triggers .dl-menuwrapper button,
+.pt-touch-button {
+	position: absolute;
+	top:40%;
+	right: 5%;
+	z-index: 999;
+	border: none;
+	font-size: 25px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 10px 0 20px;
+	padding: 0px 8px;
+	line-height: 50px;
+	letter-spacing: 1px;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	display: block;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	box-shadow: 3px 3px 0 rgba(0,0,0,0.1);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+#iterateEffects-prev{
+
+	left: 5%;
+
+}
+.pt-touch-button {
+	border-radius:15%;
+	background: rgba(255,255,255,0.25);
+	color: #FFFFFF;
+	text-shadow: 2px 2px 0 rgba(0,0,0,0.1);
+}
+
+.pt-triggers .dl-menuwrapper button {
+	margin-bottom: 0;
+}
+
+.pt-touch-button:hover{
+background: rgba(255,255,255,0.45);
+
+}
+.pt-touch-button:active {
+	background: rgba(255,255,255,0.3);
+	box-shadow: 3px 5px 0 rgba(0,0,0,0.1);
+}
+
+.touch .pt-triggers .dl-menuwrapper {
+	display: none;
+}
+
+.pt-message {
+	display: none;
+	position: absolute;
+	z-index: 99999;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background:rgba(0,0,0,0.3);
+	color: #fff;
+	text-align: center;
+}
+
+.pt-message p {
+	margin: 0;
+	line-height: 30px;
+	font-size: 16px;
+	color:rgba(255, 255, 255,0.9);
+}
+
+.no-cssanimations .pt-message {
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+	/*=============================   @media =============================*/
+	
+@media screen and (max-width: 47.4375em) {
+	.pt-page h1 {
+		font-size: 3em;
+	}
+
+	.pt-triggers .dl-menuwrapper {
+		display: none;
+	}
+}
+
+@media screen and (max-height: 45.9em) {
+	.pt-triggers .dl-menuwrapper li a {
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+	.pt-triggers .dl-menuwrapper li.dl-back:after, .dl-menuwrapper li > a:not(:only-child):after {
+		line-height: 24px;
+	}
+}
+
+@media screen and (max-height: 38em) { 
+	.pt-triggers .dl-menuwrapper {
+		display: none;
+	}
+}

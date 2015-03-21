@@ -1,0 +1,202 @@
+html,body,div,h1,h2,p,img,ul,li {
+	font-size: 100% ;
+}
+
+iframe {
+  overflow-y: auto; 
+}
+
+div.pt-triggers > .pt-touch-button {
+  top: 80%;
+}
+
+div.pt-page {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+div.pt-page > h4 {
+  bottom: 1rem;
+  right: 1.5rem;
+  opacity: .6;
+  background-color: rgba(0,0,0, .2);
+  color: #FFFFFF;
+}
+
+div.pt-container {
+  position: relative;
+  top: 0 !important;
+  left: 0 !important;
+  width: auto !important;
+  height: auto !important;
+  margin-left: .5rem !important;
+  margin-right: .5rem !important;
+  height: 100% !important;
+  background-attachment: fixed;
+  background-position: bottom center;
+  background-size: 40%;
+}
+
+div.pt-container > h1 {
+  font-size: 3rem !important;
+  margin-top: 4rem !important;
+}
+
+div.pt-container > h2 {
+  position: absolute !important;
+  width: 100% !important;
+  margin-top: 50% !important;
+  font-size: 2rem !important;
+  text-align: center;
+}
+
+div.text {
+  width: 100% !important;
+  height: 70% !important;
+  margin-top: 1rem;
+}
+
+div.text > h1 {
+  font-size: 2rem !important;
+  text-align: center;
+}
+
+div.text > div.info > p {
+  font-size: 1.25rem !important;
+}
+
+/*
+div.pt-container > h1,
+div.pt-container > h2,
+div.pt-container > p {
+  margin: 0;
+  padding: 0;
+}
+*/
+div#jianjie { 
+    background-image: Non;
+}
+
+div#cehua {
+    background-image: None;
+}
+
+div#renli {
+    background-image: None;
+}
+
+div#jishu {
+    background-image: None;
+}
+
+div#sheji {
+    background-image: None;
+}
+
+div#safari {
+    background-image: None;
+}
+
+div#huodong {
+    background-image: None;
+}
+
+div#shouhuo {
+    background-image: None;
+}
+
+div#jianjie {
+    background-image: None;
+}
+div#start > h1 {
+  content: "浙江大学<br>百度俱乐部" !important;
+}
+
+div.logo {
+  margin-top: 1rem;
+  top: 0 !important;
+  left: 0 !important;
+}
+
+div.info > ul {
+  list-style-type: circle;
+  height: auto !important;
+  font-size: 1rem !important;
+  line-height: normal !important;
+}
+
+div.info > ul > li {
+  font-size: 1.25rem;
+  margin-top: .5em;
+  height: auto !important;
+}
+
+#shouhuo > .text {
+  top: 0 !important;
+  left: 0 !important;
+}
+
+.pt-page-10 > h4.page-info {
+  display: none;
+}
+
+.form1 {
+  z-index: 100;
+}
+
+#phizzForm {
+  position: absolute !important;
+  margin: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+#phizzForm > form {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden !important;
+  margin: 0 !important;
+  padding: 0 !important; 
+}
+
+.formPanel {
+  height: auto !important;
+  width: 100% !important;
+  margin-bottom: 7rem;
+}
+
+.formPanel > h1,
+.formPanel > h2 {
+  font-size: 1.2rem;
+  font-family: inherit;
+  font-style: bold;
+}
+
+.formPanel > h1 {
+  
+}
+
+.formNotice > li {
+  font-style: normal;
+}
+
+.form .buttonNext {
+    position: relative !important;
+    margin-top: 1rem;
+}
+
+button.buttonPrev,
+button.buttonNext {
+    display: none;
+    visibility: hidden;
+}
+
+button#mstart {
+    display: block;
+    float: right !important;
+    background: white;
+    border-style: solid solid solid none;
+    color: black;
+    font-size:12px;
+}
+
